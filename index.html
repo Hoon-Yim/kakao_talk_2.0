@@ -9,7 +9,7 @@
       integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -32,22 +32,26 @@
       <div class="headerColumn headerIcon">
         <i class="fas fa-search"></i>
         <i class="far fa-comment"></i>
-        <i class="fas fa-cog"></i>
+        <a href="settings.html">
+          <i class="fas fa-cog"></i>
+        </a>
       </div>
     </header>
     <main class="chats">
       <ul class="chatsList">
         <li class="chatsChat">
           <a href="chat.html">
-            <div class="chatColumn">
-              <img class="chatAvatar gAvatar" src="images/taeyeon.jpg" />
-              <div class="chatContent">
-                <span class="chatUsername">Taeyeon</span>
-                <span class="chatPreview">Going Home</span>
+            <div class="chatsChat friend frinedLg">
+              <div class="friendColumn">
+                <img class="friendAvatar mAvatar" src="images/taeyeon.jpg" />
+                <div class="friendContent">
+                  <span class="friendName">아무개</span>
+                  <span class="friendBottomText">집에 가는 중!</span>
+                </div>
               </div>
-            </div>
-            <div class="chatColumn">
-              <span class="chatTimestamp">Yesterday</span>
+              <div class="friendColumn">
+                <span class="chatTimestamp">March 8</span>
+              </div>
             </div>
           </a>
         </li>
@@ -62,6 +66,7 @@
         </li>
         <li class="navListItem">
           <a href="index.html" class="navListLink">
+            <div class="navBadge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>

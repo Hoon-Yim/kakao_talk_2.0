@@ -9,7 +9,7 @@
       integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -31,14 +31,16 @@
       </div>
       <div class="headerColumn headerIcon">
         <i class="fas fa-search"></i>
-        <i class="fas fa-cog"></i>
+        <a href="settings.html">
+          <i class="fas fa-cog"></i>
+        </a>
       </div>
     </header>
     <main class="friends">
       <header class="friendsHeader">
-        <div class="friendsFriend Friend FriendLg">
+        <div class="friendsFriend friend">
           <div class="friendColumn">
-            <img class="friendAvatar" src="images/taeyeon.jpg" />
+            <img class="friendAvatar gAvatar" src="images/taeyeon.jpg" />
             <div class="friendContent">
               <span class="friendName">TangGu</span>
               <span class="friendStatus">Zero야 사랑해</span>
@@ -47,8 +49,8 @@
         </div>
       </header>
       <div class="friendsPlus">
-        <h5 class="friendsPlusTitle">Plus Friend</h5>
-        <div class="friendsFriend Friend">
+        <h5 class="friendsTitle">Plus Friend</h5>
+        <div class="friendsFriend friend friendLg">
           <div class="friendColumn">
             <img class="friendAvatar" src="images/taeyeon.jpg" />
             <div class="friendContent">
@@ -59,7 +61,7 @@
       </div>
       <ul class="friendsList">
         <h5 class="friendsTitle">Friends 14</h5>
-        <li class="friendsFriend Friend">
+        <li class="friendsFriend friend friendLG">
           <div class="friendColumn">
             <img class="friendAvatar" src="images/taeyeon.jpg" />
             <div class="friendContent">
@@ -71,8 +73,8 @@
             <div class="friendNowListening">
               <span>
                 FTISLAND (FT NomadCoders)
+                <i class="fas fa-play"></i>
               </span>
-              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>

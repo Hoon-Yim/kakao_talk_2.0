@@ -1,0 +1,63 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friend .friendAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 38%;
+}
+.friendAvatar.gAvatar {
+  width: 70px;
+  height: 70px;
+}
+.friendAvatar.mAvatar {
+  width: 65px;
+  height: 65px;
+}
+.friendColumn {
+  display: flex;
+  align-items: center;
+}
+.friendAvatar {
+  margin-right: 15px;
+}
+.friendName {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.friendStatus,
+.friendBottomText,
+.chatTimestamp {
+  opacity: 0.6;
+}
+.friendStatus,
+.chatTimestamp {
+  font-size: 12px;
+}
+.friendBottomText {
+  font-size: 14px;
+}
+.friendNowListening {
+  border: 2px solid #52e084;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.friendNowListening span {
+  opacity: 0.7;
+}
+.friendNowListening i {
+  font-size: 12px;
+}
+
+.friendAddBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
